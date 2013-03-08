@@ -1,0 +1,282 @@
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right !important;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+} 
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+.clear{
+	clear:both;
+}
+.banner img{
+	width:auto;
+}
+
+/** Admin Bar **/
+body.admin-bar .top-bar-wrapper div.fixed{
+	margin-top: 28px !important;
+} 
+
+#container{
+	overflow:hidden;	
+}
+.padding-top-ten{
+	padding-top: 10px;
+}
+
+article ul , .sidebar ul, #tinymce ul {
+	margin-left:18px;
+}
+#tinymce{
+	padding:10px;
+}
+body {
+  background: white;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1; 
+  color: #222222;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+body, p, h1, h2, h3, h4, h5, h6, ul, ol {
+	 font-family: 'Open Sans', "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	 font-weight: 300;
+}
+h1 {
+	font-size: 30px;
+}
+p a {
+	font-weight: 400;
+}
+.top-bar ul{
+	position: relative;
+}
+.header-wrapper h1, .header-wrapper h2, .header-wrapper h3, .header-wrapper h4{
+ 	 font-weight: 400;
+}
+.nav-bar{
+	font-weight: 600;
+}
+p#logo{
+	margin-bottom:0px;
+}
+
+ul.sub-nav {
+font-size: 16px;
+margin-top: 0px;
+border-top: 0px solid #EEE;
+overflow: hidden;
+}
+ul.sub-nav li.current_page_item {
+border-top: 5px solid #FF6908;
+}
+
+ul.sub-nav li {
+display: block;
+float: left;
+padding: 5px 30px 0 0;
+margin-right: 10px;
+border-top: 5px solid white;
+}
+.h2 {
+font-size: 150%;
+}
+.header-wrapper .header-name a, .header-wrapper .header-description{
+	color: #ffffff;
+}
+#footer .row {
+	padding-top:7px;
+}
+#footer p {
+	margin-bottom: 7px;
+}
+#footer ul.menu li{
+	list-style: none;
+	float: left;
+	margin-left: 22px;
+	display: block;
+} 
+.featured { background: url(spinner.gif) center center #f4f4f4; height: 300px; }
+.featured img { display: none; }
+
+.featured.orbit { background: none; }
+.featured.orbit img { display: block; }
+
+.sf_gallery div, #sf_gallery div{
+	float:left;
+	margin-bottom: 4px;
+	outline:none;
+}
+.sf-gallery {
+	float:left;
+	position:relative;
+	overflow:hidden;
+}
+.sf-gallery div img{
+	outline:none;
+
+}
+.divide-space {
+	margin-top: 45px;
+	border-top: 1px solid #CCC;
+	padding-top: 23px;
+}
+.alert-box h1, .alert-box h2, .alert-box h3, .alert-box h4, .alert-box h5, .alert-box h6 {
+	color: #ffffff;
+	margin-top: 7px;
+	margin-bottom: 7px;
+} 
+.alert-box p:last{
+	margin-bottom: 5px;
+}
+.alert-box a, .alert-box a:hover, .alert-box a:active, .alert-box a:visited{
+	color: #ffffff;
+	text-decoration: underline;
+}
+.comment-subscription-form label{
+	display:inline; /* overwrite block settng from foundation */
+}
+
+/* Hides navigation links when infinite scroll is active */
+.infinite-scroll #pagenavigation_wrapper {
+	display: none;
+}
+/* Shows the footer again in case all posts have been loaded */
+.infinity-end.neverending #footer {
+	/* display: block; */
+}
+
+/* fix for br ins shortcodes */
+.row br {
+	display:none;
+} 
+.row div br {
+	display:inline;
+} 
+/**  SPECISAL additions */
+@media only screen and (max-width: 767px) { 
+	.mobile-no-padding-lr{
+		padding-left:0;
+		padding-right:0;
+	}
+}
+
+/** Fix for li in boxes */
+article #ppc-box ul > li{
+	margin-left: 0px;
+}
+
+.entry-meta {
+	margin-bottom: 10px;
+}
+/* sidebar styling */
+.sidebar ul {
+	list-style-type: none;
+	margin-left: 0px;
+}
+.sidebar ul li {
+	padding-bottom:10px;
+}
+.sidebar li, .sidebar p {
+	font-size: 13px;
+}
+/* comment button */
+a#leave_a_comment {
+	margin-bottom:10px;
+}
